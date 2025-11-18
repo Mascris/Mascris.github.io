@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | Senior Creative Developer</title>
+    
+    <!-- Google Fonts: Space Grotesk (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER / NAVIGATION -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">JD<span class="dot">.</span></a>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn-nav">Let's Talk</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="container hero-content">
+            <span class="greeting">Hello, I'm John</span>
+            <h1 class="hero-title">I build <span class="typewriter"></span></h1>
+            <p class="hero-desc">
+                Senior Full-Stack Engineer with 7+ years of experience crafting robust architectures and immersive digital experiences for global brands.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View Work <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#experience" class="btn btn-outline">My Journey</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- EXPERIENCE SECTION (TIMELINE) -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Professional <span class="accent">Journey</span></h2>
+            
+            <div class="timeline">
+                <!-- Job 1 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="timeline-content">
+                        <span class="date">2021 - Present</span>
+                        <h3>Senior Frontend Architect</h3>
+                        <h4>TechFlow Solutions</h4>
+                        <p>Leading a team of 8 developers. Spearheaded the migration from Legacy JS to Next.js, improving site performance by 40%. Architected a scalable UI component library used across 5 products.</p>
+                    </div>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-icon"><i class="fa-solid fa-code"></i></div>
+                    <div class="timeline-content">
+                        <span class="date">2018 - 2021</span>
+                        <h3>Full Stack Developer</h3>
+                        <h4>Creative Pulse Agency</h4>
+                        <p>Developed award-winning animated landing pages for Nike and Sony. Managed backend API integrations using Node.js and PostgreSQL. Implemented CI/CD pipelines reducing deployment time by 50%.</p>
+                    </div>
+                </div>
+
+                <!-- Job 3 -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-icon"><i class="fa-solid fa-rocket"></i></div>
+                    <div class="timeline-content">
+                        <span class="date">2016 - 2018</span>
+                        <h3>Junior Web Developer</h3>
+                        <h4>StartUp Inc.</h4>
+                        <p>Collaborated with designers to translate Figma mockups into pixel-perfect HTML/CSS. Optimized SEO strategies leading to a 20% increase in organic traffic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+            <div class="projects-grid">
+                
+                <!-- Project Card 1 -->
+                <div class="project-card reveal">
+                    <div class="card-image">
+                        <!-- Placeholder Image from Unsplash -->
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop" alt="Project 1">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icons">
+                            <i class="fa-brands fa-react"></i>
+                            <i class="fa-brands fa-aws"></i>
+                        </div>
+                        <h3>FinTech Dashboard</h3>
+                        <p>A real-time cryptocurrency trading platform handling over 50k transactions per second.</p>
+                        <a href="#" class="link-arrow">View Case Study <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card reveal">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop" alt="Project 2">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icons">
+                            <i class="fa-brands fa-python"></i>
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h3>AI Image Generator</h3>
+                        <p>SaaS platform allowing users to generate marketing assets using Stable Diffusion API.</p>
+                        <a href="#" class="link-arrow">View Case Study <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card reveal">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop" alt="Project 3">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-icons">
+                            <i class="fa-brands fa-shopify"></i>
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <h3>E-Commerce Redesign</h3>
+                        <p>Complete overhaul of a fashion brand's store, resulting in a 15% conversion rate uplift.</p>
+                        <a href="#" class="link-arrow">View Case Study <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <!-- Column 1 -->
+            <div class="footer-col">
+                <a href="#" class="logo">JD<span class="dot">.</span></a>
+                <p>Crafting digital solutions with pixel-perfect precision and high-performance code.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                </div>
+            </div>
+            <!-- Column 2 -->
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Case Studies</a></li>
+                    <li><a href="#experience">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Column 3 -->
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul class="contact-info">
+                    <li><i class="fa-solid fa-envelope"></i> hello@johndoe.dev</li>
+                    <li><i class="fa-solid fa-location-dot"></i> New York, USA</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 John Doe. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
